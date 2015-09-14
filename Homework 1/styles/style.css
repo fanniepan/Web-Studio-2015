@@ -1,0 +1,13 @@
+body {
+	background-color: #FAF8FF;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+	text-align: center 
+}
+
+p, h1 {text-align: center }
+
+.opensans{
+	font-family: 'Open Sans', sans-serif;
+
+}
