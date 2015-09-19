@@ -5,7 +5,14 @@ body {
 	text-align: center 
 }
 
-p, h1 {text-align: center }
+h1 {	
+	text-align: center ;
+	color : #B894FF;
+		}
+p {
+	text-align: center ;
+	 color : #CDB4FF; 
+	}
 
 .opensans{
 	font-family: 'Open Sans', sans-serif;
