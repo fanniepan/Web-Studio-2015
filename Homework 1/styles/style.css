@@ -6,13 +6,19 @@ body {
 }
 
 h1 {	
+	position: absolute;
+	left: 100px;
+	top: 250px;
 	text-align: center ;
 	color : #B894FF;
-		}
+}
 p {
+	position: absolute;
+	right: 20px; 
+	top: 250px;
 	text-align: center ;
 	 color : #CDB4FF; 
-	}
+}
 
 .opensans{
 	font-family: 'Open Sans', sans-serif;

@@ -1,0 +1,24 @@
+<html>
+	<head> 
+		<meta charset = "utf-8"></meta>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic' rel='stylesheet' type='text/css'>
+		<link href = "../styles/style.css" rel = "stylesheet" type = "text/css">
+	</head>
+
+	<body>
+		<div class = "bio"> 
+      <h1> Welcome! </h1>
+      <p> Hello! My name is Fannie Pan. Welcome to my page! </p>
+    </div>
+<section> 
+  <h1> First Post 
+  </h1>
+  This is just a random post 
+    </section>
+<section>
+  <h1> Second Post 
+  </h1>
+  This is just a random post to demonstrate positioning and boxes.
+    </section>
+	</body>
+</html>
