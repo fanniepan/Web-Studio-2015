@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Web Dev Assignment 3 </title>
+	<style>
+		.button {
+			background-color: #FF69B4;
+			border: 2px solid #00ff00;
+			border-radius: 5px;
+			padding: 20px;
+			width: 100px;
+			cursor: pointer;
+		}
+		.button.hover {
+			background-color: #00ff00;
+		}
+		#overlay {
+			display: none;
+		    width: 500px;
+		    color: #005AFF;
+		    background-color: #E36BDA;
+		    border: 2px solid #000;
+		    border-radius: 64px;
+		    padding: 80px;
+		    position: fixed;
+		    left: 50%;
+		    margin-left: -250px;
+		}
+		#overlay.show {
+			display:block;
+		}
+		#overlay2 {
+			display: none;
+    height: 5000px;
+		    width: 5000px;
+		    color: #005AFF;
+		    background-color: #E36BDA;
+		    border: 2px solid #000;
+		    border-radius: 64px;
+    padding: 80px;
+		    position: fixed;
+    margin-left: -250px;
+		}
+#overlay2.show {
+			display:block;
+		}
+		iframe {
+			width: 100%;
+			height: 100%;
+		    position: fixed;
+		    z-index: -1;
+		    top: 0;
+		    left: 0;
+		}
+    </style>
+	<body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jI-kpVh6e1U?rel=0&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+		<header>
+			<h1>Javascript Demo</h1>
+			<h3>JS subheader</h3>
+		</header>
+		<div id="buttonID" class="button">Click to Stop</div>	
+		<div id="overlay">
+<button id="defaultButton">Once More!</button>
+		</div>
+					<div id = "overlay2">
+<button id= "defaultButton">Last One?</button>
+		<script src="/main.js"></script>
+	</body>
+</html>
