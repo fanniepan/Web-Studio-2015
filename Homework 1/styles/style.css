@@ -1,0 +1,26 @@
+body {
+	background-color: #FAF8FF;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+	text-align: center 
+}
+
+h1 {	
+	position: absolute;
+	left: 100px;
+	top: 250px;
+	text-align: center ;
+	color : #B894FF;
+}
+p {
+	position: absolute;
+	right: 20px; 
+	top: 250px;
+	text-align: center ;
+	 color : #CDB4FF; 
+}
+
+.opensans{
+	font-family: 'Open Sans', sans-serif;
+
+}

@@ -1,0 +1,17 @@
+.container{
+position: relative;
+}
+
+.bio{
+  color: navy;
+	position: absolute;
+	left: 10px;
+	width: 150px;
+}
+section{
+	margin-left: 200px;
+}
+
+h1 {
+  color: navy;
+}
