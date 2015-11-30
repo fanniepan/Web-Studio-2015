@@ -59,7 +59,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 14px/26px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -72,8 +72,8 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #fff;
-    border-top: 20px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-top: 10px solid #fff;
 }
 
 
@@ -183,6 +183,10 @@ h3 ul {
     text-align: left;
 }
 
+.summarybox{
+    padding-top:46px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -223,16 +227,6 @@ h3 ul {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container{
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
 /* ============
     WIDE: Menu
    ============ */
@@ -243,6 +237,7 @@ h3 ul {
 
     nav {
         margin: auto;
+        text-align: center;
        /* width: 38%;*/
     }
 
