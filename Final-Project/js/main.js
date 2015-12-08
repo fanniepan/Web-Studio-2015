@@ -6,3 +6,6 @@ $("nav").find("a").click(function(e) {
     });
 });
 
+// when page loads, get url fragment from end of url
+// if that equals "contact", for example, use jQuery scrollTo that 
+// hash: #contact

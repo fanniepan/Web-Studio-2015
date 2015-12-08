@@ -142,6 +142,7 @@ nav a:visited {
    ========================================================================== */
 
 .hero{
+    background-image: url(../img/hero.png);
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -149,7 +150,7 @@ nav a:visited {
     width:auto;
     overflow:hidden;
     width:100%;
-    height:10%;
+    height: 502px;
 }
 
 body
@@ -187,6 +188,16 @@ h3 ul {
     padding-top:46px;
 }
 
+.section-content {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.center-box {
+    position: relative;
+    top: 260px;
+    left: 50%;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
