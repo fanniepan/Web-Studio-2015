@@ -72,13 +72,12 @@ body {
    =================== */
 
 .header-container {
+    background: #fff;
     border-bottom: 10px solid #fff;
     border-top: 10px solid #fff;
-}
-
-
-.header-container{
-    background: #fff;
+    position:fixed;
+    width:100%;
+    z-index:2;
 }
 
 .title {
@@ -95,19 +94,6 @@ nav ul {
     width: 70%;
     padding: 0;
     list-style-type: none;
-}
-
-nav a {
-  /*  display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;*/
 }
 
 nav a:hover,
@@ -194,7 +180,12 @@ h3 ul {
     padding: 30px 0;
 }
 
-.center-box h1, h3{
+.center-box h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.center-box h3{
     color: #fff;
     font-size: 20px;
 }
@@ -209,6 +200,14 @@ h3 ul {
     left: 35%;
 }
 
+.icon-box {
+    height:210px; 
+    width:600px;
+}
+
+.social-box {
+    width:800px;
+}
 
 /* ==========================================================================
    Media Queries
